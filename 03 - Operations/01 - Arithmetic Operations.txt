@@ -1,0 +1,77 @@
+Addition
+Addition is the most basic arithmetic operation, combining two or more numbers into a single value 
+called the sum. It represents the total of two quantities placed together.
+
+a + b = c
+
+Properties
+- Commutative: the order of the operands does not affect the result, a + b = b + a.
+- Associative: the grouping of the operands does not affect the result, (a + b) + c = a + (b + c).
+- Identity element: adding 0 to any number leaves it unchanged, a + 0 = a.
+- Inverse element: adding the opposite of a number always produces 0, a + (-a) = 0.
+
+Examples
+3 + 2 = 5,   -4 + 7 = 3,   10 + (-6) = 4
+
+----------------------------------------------------------------------------------------------------
+
+Subtraction
+Subtraction is an arithmetic operation that finds the difference between two numbers. It represents 
+the removal of a quantity from another.
+
+a - b = c
+
+Properties
+- Not Commutative: the order of the operands affects the result, a - b ≠ b - a.
+- Not associative: the grouping of the operands affects the result, (a - b) - c ≠ a - (b - c).
+- Identity element: subtracting 0 from any number leaves it unchanged, a - 0 = a.
+- Relation to addition: subtraction is equivalent to adding the opposite, a - b = a + (-b).
+
+Examples
+7 - 3 = 4,   2 - 8 = -6,   -5 - (-3) = -2
+
+----------------------------------------------------------------------------------------------------
+
+Multiplication
+Multiplication is an arithmetic operation that finds the product of two numbers. It represents 
+repeated addition of a quantity.
+
+a ∙ b = c, ab = c
+
+Properties
+- Commutative: the order of the operands does not affect the result, a ∙ b = b ∙ a.
+- Associative: the grouping of the operands does not affect the result, (a ∙ b) ∙ c = a ∙ (b ∙ c).
+- Distributive over addition: multiplication distributes over addition, a ∙ (b + c) = a ∙ b + a ∙ c.
+- Identity element: multiplying any number by 1 leaves it unchanged, a ∙ 1 = a.
+- Zero property: multiplying any number by 0 always produces 0, a ∙ 0 = 0.
+
+Examples
+
+3 ∙ 4 = 12,   -2 ∙ 5 = -10,   6 ∙ (-3) = -18,   ab = a ∙ b
+
+Note
+In algebra, ∙ is the conventional notation for multiplication. The symbol × is also valid but 
+less common in algebraic contexts. When multiplying variables, the ∙ can be omitted entirely, so 
+a ∙ b is written as ab.
+
+----------------------------------------------------------------------------------------------------
+
+Division
+Division is an arithmetic operation that finds the quotient of two numbers. It represents splitting 
+a quantity into equal parts.
+
+a/b = c, b ≠ 0
+
+Properties
+- Not commutative: the order of the operands affects the result, a/b ≠ b/a;
+- Not associative: the grouping of the operands affects the result, (a/b)/c ≠ a/(b/c);
+- Identity element: dividing any number by 1 leaves it unchanged, a/1 = a;
+- Inverse of multiplication: division is the inverse operation of multiplication, (a∙b)/b = a.
+- Division by zero is undefined: a/0 has no defined value for any a.
+
+Examples
+12/4 = 3,   -10/2 = -5,   7/1 = 7
+
+Note
+In algebra, the fraction notation a/b is the conventional form for division. The obelus 
+symbol ÷ is also valid but rarely used in algebraic contexts.

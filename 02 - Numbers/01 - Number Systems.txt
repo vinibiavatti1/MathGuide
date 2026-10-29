@@ -5,10 +5,10 @@ life. TThey are the set of whole numbers starting from 0 and increasing infinite
 ℕ = {0, 1, 2, 3, 4, 5, ...}
 
 Properties
-- Infinite: there is no largest natural number;
-- Discrete: there is no natural number between two consecutive natural numbers, such as 1 and 2;
+- Infinite: there is no largest natural number.
+- Discrete: there is no natural number between two consecutive natural numbers, such as 1 and 2.
 - Closed under addition and multiplication: adding or multiplying two natural numbers always 
-  produces a natural number;
+  produces a natural number.
 - Not closed under subtraction or division: 2 − 5 and 1 / 3 do not produce natural numbers.
 
 Examples
@@ -29,11 +29,11 @@ that is closed under subtraction.
 ℤ = {..., -3, -2, -1, 0, 1, 2, 3, ...}
 
 Properties
-- Infinite in both directions: there is no largest or smallest integer;
-- Discrete: there is no integer between two consecutive integers, such as 1 and 2;
+- Infinite in both directions: there is no largest or smallest integer.
+- Discrete: there is no integer between two consecutive integers, such as 1 and 2.
 - Closed under addition, subtraction and multiplication: operating two integers always produces an 
-  integer;
-- Not closed under division: 1 / 3 does not produce an integer;
+  integer.
+- Not closed under division: 1 / 3 does not produce an integer.
 - Every natural number is an integer: ℕ ⊂ ℤ.
 
 Examples
@@ -54,8 +54,8 @@ two integers, where the denominator is not zero.
 
 Properties
 - Closed under addition, subtraction, multiplication and division: operating two rational numbers 
-  always produces a rational number (except division by zero);
-- Dense: between any two rational numbers there is always another rational number;
+  always produces a rational number (except division by zero).
+- Dense: between any two rational numbers there is always another rational number.
 - Every integer is a rational number: any integer n can be written as n/1, so ℤ ⊂ ℚ.
 
 Examples
@@ -76,9 +76,9 @@ representation is non-terminating and non-repeating.
 
 Properties
 - Non-terminating and non-repeating: their decimal expansion goes on forever without a repeating 
-  pattern;
-- Cannot be expressed as a fraction: there are no integers p and q such that x = p/q;
-- Dense: between any two real numbers there is always an irrational number;
+  pattern.
+- Cannot be expressed as a fraction: there are no integers p and q such that x = p/q.
+- Dense: between any two real numbers there is always an irrational number.
 - Irrational numbers are real numbers: ℝ \ ℚ ⊂ ℝ.
 
 Examples
@@ -100,10 +100,10 @@ irrational numbers, forming a complete and continuous number system.
 
 Properties
 
-- Complete: there are no gaps on the number line, every point corresponds to a real number;
-- Dense: between any two real numbers there is always another real number;
+- Complete: there are no gaps on the number line, every point corresponds to a real number.
+- Dense: between any two real numbers there is always another real number.
 - Closed under addition, subtraction, multiplication and division: operating two real numbers always 
-  produces a real number (except division by zero);
+  produces a real number (except division by zero).
 - Every rational and irrational number is a real number: ℚ ⊂ ℝ and ℝ \ ℚ ⊂ ℝ.
 
 Examples
@@ -126,8 +126,8 @@ is a real multiple of i.
 bi, b ∈ ℝ
 
 Properties
-- Not real: imaginary numbers are not part of ℝ;
-- Powers of i follow a cycle: the powers of i repeat in a cycle of 4;
+- Not real: imaginary numbers are not part of ℝ.
+- Powers of i follow a cycle: the powers of i repeat in a cycle of 4.
 - Closed under addition and multiplication: operating two imaginary numbers always produces either 
   an imaginary or a real number.
 
@@ -144,26 +144,26 @@ Complex Numbers
 Complex numbers extend the real numbers by combining a real part and an imaginary part into a single 
 number, forming the most complete number system in this hierarchy.
 
-z = a + bi,  a ∈ ℝ,  b ∈ ℝ
+z = a + bi, a ∈ ℝ, b ∈ ℝ
 
 Notation
 Complex numbers are represented by the symbol ℂ. The variable z is commonly used to denote a complex 
 number, where a is the real part and b is the imaginary part.
 
-z ∈ ℂ,  Re(z)=a,  Im(z)=b
+z ∈ ℂ, Re(z)=a, Im(z)=b
 
 Properties
 
-- Complete number system: every number introduced so far is a complex number;
+- Complete number system: every number introduced so far is a complex number.
 - Closed under addition, subtraction, multiplication and division: operating two complex numbers 
-  always produces a complex number (except division by zero);
-- Every real number is a complex number: ℝ ⊂ ℂ;
+  always produces a complex number (except division by zero).
+- Every real number is a complex number: ℝ ⊂ ℂ.
 - Every imaginary number is a complex number: i ∈ ℂ.
 
 Examples
 A real number, an imaginary number, and a combination of both are all complex numbers.
 
-3+2i,  -1+5i,  4+0i,  0+3i 
+3+2i,   -1+5i,   4+0i,   0+3i 
 
 Note
 When b = 0, the complex number reduces to a real number. When a = 0, it reduces to an imaginary 
@@ -179,13 +179,13 @@ hierarchy of nested sets where every number in a smaller set also belongs to all
 
 Properties
 - Natural numbers are the smallest set. Every natural number is also an integer, a rational, a real, 
-  and a complex number;
-- Integers extend ℕ by adding negative whole numbers;
-- Rational numbers extend ℤ by adding fractions;
-- Real numbers extend ℚ by adding irrational numbers;
+  and a complex number.
+- Integers extend ℕ by adding negative whole numbers.
+- Rational numbers extend ℤ by adding fractions.
+- Real numbers extend ℚ by adding irrational numbers.
 - Complex numbers extend ℝ by adding imaginary numbers.
 
 Examples
 The number 3 can be expressed in every number system.
 
-3 ∈ ℕ,  3 ∈ ℤ,  3 = 3/1 ∈ ℚ,  3 ∈ ℝ,  3=3+0i ∈ ℂ
+3 ∈ ℕ,   3 ∈ ℤ,   3 = 3/1 ∈ ℚ,   3 ∈ ℝ,   3=3+0i ∈ ℂ

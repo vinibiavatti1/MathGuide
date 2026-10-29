@@ -1,0 +1,101 @@
+Radical Notation
+Radical notation is used to express roots of numbers. The radical symbol √ indicates the root of a 
+number, where the index specifies which root is being taken.
+
+ⁿ√a = b ⇔ bⁿ = a, a ≥ 0, n ∈ ℕ, n ≥ 2
+
+Alternative Notation
+A radical can also be expressed as a fractional exponent, where the index becomes the denominator.
+
+ⁿ√a = a¹/ⁿ
+
+Terminology
+- Radicand: the number under the radical symbol, a.
+- Index: the small number indicating which root is being taken, n.
+- Radical: the full expression ⁿ√a.
+
+Examples
+√9 = 3,   ∛8 = 2,   ∜16 = 2
+
+Note
+When no index is written, the index is assumed to be 2.
+
+----------------------------------------------------------------------------------------------------
+
+Simplifying Radicals
+Simplifying a radical means rewriting it in its simplest form, where the radicand has no perfect 
+power factors and the index is as small as possible.
+
+Product Rule
+A radical of a product can be split into a product of radicals.
+
+ⁿ√(a∙b) = ⁿ√a∙ⁿ√b,   a ≥ 0, b ≥ 0
+
+Extracting Perfect Powers
+If the radicand contains a perfect power factor, it can be extracted from the radical.
+
+ⁿ√(aⁿ∙b) = a∙ⁿ√b,   a ≥ 0, b ≥ 0
+
+Reducing the Index
+If the index and the exponent of the radicand share a common factor, the radical can be simplified 
+by reducing both.
+
+ᵐ˙ⁿ√aᵐ = ⁿ√a,   a ≥ 0
+
+Examples
+√12 = √(4∙3) = 2∙√3,   ∜x² = √x,   ⁶√a² = ∛a
+
+----------------------------------------------------------------------------------------------------
+
+Radical Operations
+Radical operations define how to add, subtract, multiply and divide expressions containing radicals.
+
+Addition and Subtraction
+Only radicals with the same index and the same radicand can be added or subtracted. These are called 
+like radicals.
+
+a∙ⁿ√x ± b∙ⁿ√x = (a ± b)ⁿ√x
+
+Multiplication
+Radicals with the same index can be multiplied by combining their radicands.
+
+ⁿ√a∙ⁿ√b = ⁿ√(a∙b),   a ≥ 0, b ≥ 0 
+
+Division
+Radicals with the same index can be divided by combining their radicands.
+
+ⁿ√a
+——— = ⁿ√(a/b),   a ≥ 0, b ≥ 0 
+ⁿ√b 
+
+Examples
+3√2 + 5√2 = 8√2,   √3∙√12 = √(3∙12) = √36 = 6,   √18/√2 = √(18/2) = √9 = 3
+
+----------------------------------------------------------------------------------------------------
+
+Rationalizing the Denominator
+Rationalizing the denominator is the process of eliminating radicals from the denominator of a 
+fraction by multiplying both the numerator and denominator by a suitable expression.
+
+Simple Radical Denominator
+When the denominator contains a single radical, multiply by that radical.
+
+a    a  √b   a√b
+—— = ——∙—— = ———,   b > 0
+√b   √b √b    b
+
+Binomial Denominator
+When the denominator contains a binomial with a radical, multiply by its conjugate.
+
+ a      a   √b-c   a(√b-c)
+———— = ————∙———— = ———————
+√b+c   √b+c √b-c    b-c²
+
+The conjugate of √b + c is √b - c. Multiplying them eliminates the radical by applying the 
+difference of squares: (√b + c)∙(√b - c) = b - c².
+
+Examples
+
+       3√5      2     2(√3-1)   2(√3-1)
+3/√5 = ———,    ———— = ——————— = ——————— = √3-1
+        5      √3+1     3-1        2

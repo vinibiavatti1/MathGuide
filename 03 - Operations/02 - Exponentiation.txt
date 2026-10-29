@@ -1,0 +1,70 @@
+Power Notation
+Power notation is a compact way to express repeated multiplication of a number by itself. The base 
+is the number being multiplied, and the exponent indicates how many times it is multiplied.
+
+aⁿ = a∙a∙a…a, n ∈ ℕ
+
+Terminology
+- Base: the number being multiplied by itself.
+- Exponent: the number of times the base is multiplied by itself.
+- Power: the value obtained from the operation.
+- Square: the result of raising a number to the power of 2, a².
+- Cube: the result of raising a number to the power of 3, a³.
+
+Examples
+2³ = 2∙2∙2 = 8,   5² = 5∙5 = 25,   10⁴ = 10∙10∙10∙10 = 10000
+
+----------------------------------------------------------------------------------------------------
+
+Exponent Laws
+Exponent laws are rules that define how to simplify and manipulate expressions involving powers. 
+They apply whenever the base is a non-zero real number.
+
+Product Rule
+Multiplying two powers with the same base adds the exponents.
+
+aⁿ∙aᵐ = aⁿ⁺ᵐ
+
+Quotient Rule
+Dividing two powers with the same base subtracts the exponents.
+
+aⁿ/aᵐ = aⁿ⁻ᵐ,   a ≠ 0
+
+Power Rule
+Raising a power to another exponent multiplies the exponents.
+
+(aⁿ)ᵐ = aⁿ˙ᵐ
+
+Product to a Power
+A product raised to an exponent distributes to each factor.
+
+(a∙b)ⁿ = aⁿ∙bⁿ
+
+Quotient to a Power
+A quotient raised to an exponent distributes to the numerator and denominator.
+
+(a/b)ⁿ = aⁿ/bⁿ,   b ≠ 0
+
+----------------------------------------------------------------------------------------------------
+
+Special Exponent Values
+Certain exponent values produce results that are consistent across bases. These special cases are 
+defined by extending the exponent laws consistently.
+
+Base Zero:     0ⁿ = 0,   n > 0
+Exponent Zero: a⁰ = 1,   a ≠ 0
+Base One:      1ⁿ = 1
+Exponent One:  a¹ = a
+Neg. Base:    -aⁿ = -(aⁿ)
+Neg. Exponent: a⁻ⁿ = 1/aⁿ,   a ≠ 0
+
+Base and Exponent Zero
+Is undefined/indeterminate in most mathematical contexts, as it leads to contradictions.
+
+0⁰ = undefined
+
+Fractional Exponents
+A fractional exponent represents a radical. The denominator indicates the root index and the 
+numerator indicates the power.
+
+aᵐ/ⁿ = ⁿ√(aᵐ),   a ≥ 0
