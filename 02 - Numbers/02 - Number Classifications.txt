@@ -1,0 +1,148 @@
+Odd Numbers
+Odd numbers are integers that cannot be divided evenly by 2. They always leave a remainder of 1 when 
+divided by 2. An odd number is typically represented as 2k + 1, where k is any integer.
+
+n = 2k + 1, k ∈ ℤ
+
+Properties
+- Not divisible by 2: dividing an odd number by 2 always leaves a remainder of 1;
+- Closed under multiplication: multiplying two odd numbers always produces an odd number;
+- Not closed under addition: adding two odd numbers always produces an even number.
+
+Examples
+..., -3, -1, 1, 3, 5, 7, ...
+
+----------------------------------------------------------------------------------------------------
+
+Even Numbers
+Even numbers are integers that can be divided evenly by 2. They always leave a remainder of 0 when 
+divided by 2. An even number is typically represented as 2k, where k is any integer.
+
+n = 2k, k ∈ ℤ
+
+Properties
+- Divisible by 2: dividing an even number by 2 always produces an integer;
+- Closed under addition and subtraction: adding or subtracting two even numbers always produces an 
+  even number;
+- Closed under multiplication: multiplying two even numbers always produces an even number;
+- 0 is an even number: 0 = 2 ⋅ 0, so 0 satisfies the definition.
+
+Examples
+..., -4, -2, 0, 2, 4, 6, ...
+
+----------------------------------------------------------------------------------------------------
+
+Prime Numbers
+Prime numbers are natural numbers greater than 1 that have exactly two distinct divisors: 1 and 
+themselves. A number p is prime if it cannot be expressed as a product of two smaller natural 
+numbers.
+
+p ∈ ℕ, p > 1, divisors(p) = {1, p}
+
+Properties
+- Greater than 1: by definition, 1 is not a prime number;
+- Exactly two divisors: a prime number is only divisible by 1 and itself;
+- Infinite: there are infinitely many prime numbers;
+- Fundamental theorem of arithmetic: every natural number greater than 1 is either prime or can be 
+  expressed as a unique product of prime numbers.
+
+Examples
+The first prime numbers are:
+
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...
+
+Note
+2 is the only even prime number, as every other even number is divisible by 2.
+
+----------------------------------------------------------------------------------------------------
+
+Composite Numbers
+Composite numbers are natural numbers greater than 1 that have more than two distinct divisors. A 
+number n is composite if it can be expressed as a product of two smaller natural numbers.
+
+n ∈ ℕ, n > 1, divisors(n) ≠ {1, n}
+
+Properties
+- Greater than 1: by definition, 1 is neither prime nor composite;
+- At least three divisors: a composite number is divisible by 1, itself, and at least one other 
+  number;
+- Expressible as a product of primes: by the fundamental theorem of arithmetic, every composite 
+  number can be written as a unique product of prime numbers;
+- Every even number greater than 2 is composite: since it is divisible by 2.
+
+Examples
+The first composite numbers are:
+
+4, 6, 8, 10, 12, 14, 15, 16, 18, ...
+
+Note
+4 is the smallest composite number, as it has three divisors: 1, 2 and 4.
+
+----------------------------------------------------------------------------------------------------
+
+Perfect Numbers
+Perfect numbers are natural numbers that are equal to the sum of their proper divisors, that is, all 
+divisors excluding the number itself.
+
+∑{d ∈ divisors(n), d ≠ n} = n
+
+Properties
+- Rare: perfect numbers are extremely rare, only a few are known;
+- All known perfect numbers are even: no odd perfect number has ever been found, though none has 
+  been proved not to exist;
+- All known perfect numbers end in 6 or 8: this is a consequence of their structure;
+- Related to Mersenne primes: every even perfect number corresponds to a Mersenne prime of the 
+  form 2ⁿ⁻¹(2ⁿ - 1), where 2ⁿ - 1 is prime.
+
+Examples
+The first perfect numbers are:
+
+6, 28, 496, 8128, ...
+
+Note
+6 is the smallest perfect number: its proper divisors are 1, 2 and 3, and 1 + 2 + 3 = 6.
+
+----------------------------------------------------------------------------------------------------
+
+Perfect Squares
+Perfect squares are natural numbers that result from multiplying an integer by itself. A number n is 
+a perfect square if there exists an integer k such that n = k².
+
+n = k², k ∈ ℤ
+
+Properties
+
+- Always non-negative: since k² ≥ 0 for any integer k;
+- Square root is an integer: the square root of a perfect square is always a whole number;
+- Useful in simplifying radicals: perfect square factors can be extracted from square roots.
+
+Examples
+The first perfect squares are:
+
+0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, ...
+
+Note
+These correspond to 0², 1², 2², 3², 4², 5², 6², 7², 8², 9², 10².
+
+----------------------------------------------------------------------------------------------------
+
+Perfect Cubes
+Perfect cubes are numbers that result from multiplying an integer by itself three times. A number n 
+is a perfect cube if there exists an integer k such that n = k³.
+
+n = k³, k ∈ ℤ
+
+Properties
+
+- Can be negative: since (-k)³ = -k³, negative numbers can be perfect cubes;
+- Cube root is an integer: the cube root of a perfect cube is always a whole number;
+- Useful in simplifying radicals: perfect cube factors can be extracted from cube roots.
+
+Examples
+The first perfect cubes are:
+
+0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, ...
+
+Note
+These correspond to 0³, 1³, 2³, 3³, 4³, 5³, 6³, 7³, 8³, 9³, 10³.
+Negative perfect cubes follow the same pattern: (-2)³ = -8, (-3)³ = -27, and so on.

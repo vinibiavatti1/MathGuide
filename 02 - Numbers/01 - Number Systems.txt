@@ -1,0 +1,191 @@
+Natual Numbers
+Natural numbers are the most basic number system, representing the counting numbers used in everyday 
+life. TThey are the set of whole numbers starting from 0 and increasing infinitely.
+
+ℕ = {0, 1, 2, 3, 4, 5, ...}
+
+Properties
+- Infinite: there is no largest natural number;
+- Discrete: there is no natural number between two consecutive natural numbers, such as 1 and 2;
+- Closed under addition and multiplication: adding or multiplying two natural numbers always 
+  produces a natural number;
+- Not closed under subtraction or division: 2 − 5 and 1 / 3 do not produce natural numbers.
+
+Examples
+The number of students in a classroom, the number of pages in a book, or the result of counting any 
+collection of objects are all natural numbers.
+
+0, 1, 2, 3, 42, 1000
+
+Note
+Some definitions exclude 0 from the natural numbers.
+
+----------------------------------------------------------------------------------------------------
+
+Integers
+Integers extend the natural numbers by including negative whole numbers, forming a number system 
+that is closed under subtraction.
+
+ℤ = {..., -3, -2, -1, 0, 1, 2, 3, ...}
+
+Properties
+- Infinite in both directions: there is no largest or smallest integer;
+- Discrete: there is no integer between two consecutive integers, such as 1 and 2;
+- Closed under addition, subtraction and multiplication: operating two integers always produces an 
+  integer;
+- Not closed under division: 1 / 3 does not produce an integer;
+- Every natural number is an integer: ℕ ⊂ ℤ.
+
+Examples
+A debt of -200, a temperature of -5°C, or a count of 42 items are all represented by integers.
+
+..., -3, -2, -1, 0, 1, 2, 3, ...
+
+Note
+The symbol ℤ comes from the German word "Zahlen", meaning "numbers".
+
+----------------------------------------------------------------------------------------------------
+
+Rational Numbers
+Rational numbers extend the integers by including all numbers that can be expressed as a fraction of 
+two integers, where the denominator is not zero.
+
+ℚ = {p/q | p ∈ ℤ, q ∈ ℤ, q ≠ 0}
+
+Properties
+- Closed under addition, subtraction, multiplication and division: operating two rational numbers 
+  always produces a rational number (except division by zero);
+- Dense: between any two rational numbers there is always another rational number;
+- Every integer is a rational number: any integer n can be written as n/1, so ℤ ⊂ ℚ.
+
+Examples
+A half, a quarter, and a repeating decimal are all rational numbers.
+
+1/2, 3/4, -5/3, 0.333...
+
+Note
+The symbol ℚ comes from the word "quotient".
+
+----------------------------------------------------------------------------------------------------
+
+Irrational Numbers
+Irrational numbers are numbers that cannot be expressed as a fraction of two integers. Their decimal 
+representation is non-terminating and non-repeating.
+
+ℝ \ ℚ = {x | x ∈ ℝ, x ∉ ℚ}
+
+Properties
+- Non-terminating and non-repeating: their decimal expansion goes on forever without a repeating 
+  pattern;
+- Cannot be expressed as a fraction: there are no integers p and q such that x = p/q;
+- Dense: between any two real numbers there is always an irrational number;
+- Irrational numbers are real numbers: ℝ \ ℚ ⊂ ℝ.
+
+Examples
+The most well-known irrational numbers are square roots of non-perfect squares and mathematical 
+constants.
+
+√2, π, e, √3, ...
+
+Note
+Irrational numbers do not have a dedicated symbol.
+
+----------------------------------------------------------------------------------------------------
+
+Real Numbers
+Real numbers are all numbers that can be found on the number line. They include all rational and 
+irrational numbers, forming a complete and continuous number system.
+
+ℝ = ℚ ∪ (ℝ \ ℚ)
+
+Properties
+
+- Complete: there are no gaps on the number line, every point corresponds to a real number;
+- Dense: between any two real numbers there is always another real number;
+- Closed under addition, subtraction, multiplication and division: operating two real numbers always 
+  produces a real number (except division by zero);
+- Every rational and irrational number is a real number: ℚ ⊂ ℝ and ℝ \ ℚ ⊂ ℝ.
+
+Examples
+Integers, fractions, square roots and mathematical constants are all real numbers.
+
+-3, 1/2, √2, π, 0.333...
+
+----------------------------------------------------------------------------------------------------
+
+Imaginary Numbers
+Imaginary numbers are numbers that cannot be found on the real number line. They arise from the 
+square root of negative numbers, which has no solution in ℝ.
+
+i = √-1
+
+Notation
+Imaginary numbers are represented by the symbol i, called the imaginary unit. Any imaginary number 
+is a real multiple of i.
+
+bi, b ∈ ℝ
+
+Properties
+- Not real: imaginary numbers are not part of ℝ;
+- Powers of i follow a cycle: the powers of i repeat in a cycle of 4;
+- Closed under addition and multiplication: operating two imaginary numbers always produces either 
+  an imaginary or a real number.
+
+i¹=i,  i²=-1,  i³=-i,  i⁴=1
+
+Examples
+The square root of any negative number produces an imaginary number.
+
+√-1=i,  √-4=2i,  √-9=3i
+
+----------------------------------------------------------------------------------------------------
+
+Complex Numbers
+Complex numbers extend the real numbers by combining a real part and an imaginary part into a single 
+number, forming the most complete number system in this hierarchy.
+
+z = a + bi,  a ∈ ℝ,  b ∈ ℝ
+
+Notation
+Complex numbers are represented by the symbol ℂ. The variable z is commonly used to denote a complex 
+number, where a is the real part and b is the imaginary part.
+
+z ∈ ℂ,  Re(z)=a,  Im(z)=b
+
+Properties
+
+- Complete number system: every number introduced so far is a complex number;
+- Closed under addition, subtraction, multiplication and division: operating two complex numbers 
+  always produces a complex number (except division by zero);
+- Every real number is a complex number: ℝ ⊂ ℂ;
+- Every imaginary number is a complex number: i ∈ ℂ.
+
+Examples
+A real number, an imaginary number, and a combination of both are all complex numbers.
+
+3+2i,  -1+5i,  4+0i,  0+3i 
+
+Note
+When b = 0, the complex number reduces to a real number. When a = 0, it reduces to an imaginary 
+number.
+
+----------------------------------------------------------------------------------------------------
+
+Set Inclusion of Number Systems
+The number systems introduced so far are not isolated, Each one extends the previous, forming a 
+hierarchy of nested sets where every number in a smaller set also belongs to all larger sets.
+
+ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ
+
+Properties
+- Natural numbers are the smallest set. Every natural number is also an integer, a rational, a real, 
+  and a complex number;
+- Integers extend ℕ by adding negative whole numbers;
+- Rational numbers extend ℤ by adding fractions;
+- Real numbers extend ℚ by adding irrational numbers;
+- Complex numbers extend ℝ by adding imaginary numbers.
+
+Examples
+The number 3 can be expressed in every number system.
+
+3 ∈ ℕ,  3 ∈ ℤ,  3 = 3/1 ∈ ℚ,  3 ∈ ℝ,  3=3+0i ∈ ℂ
