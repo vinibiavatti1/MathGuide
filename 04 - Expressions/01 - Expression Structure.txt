@@ -1,0 +1,71 @@
+Terms
+A term is a single mathematical unit in an expression. It can be a number, a variable, or a product 
+of numbers and variables. Terms are separated from each other by addition or subtraction signs.
+
+Expression: 4x² - 3x + 7
+Terms: 4x², -3x, 7
+
+Terminology
+- Monomial: an expression consisting of a single term, such as 3x².
+- Binomial: an expression consisting of two terms, such as x + 5.
+- Trinomial: an expression consisting of three terms, such as x² + 3x + 2.
+- Polynomial: a general expression consisting of one or more terms.
+- Like terms: terms that have the same variables raised to the same exponents. Only like terms can 
+  be added or subtracted.
+- Unlike terms: terms that differ in their variables or exponents. They cannot be combined.
+
+Note 
+The sign preceding a term belongs to that term. In 4x² - 3x + 7, the second term is -3x, not 3x.
+
+----------------------------------------------------------------------------------------------------
+
+Coefficients
+A coefficient is the numerical factor of a term. It is the number that multiplies the variable or 
+variables in a term.
+
+Expression: 4x² - 3x + 7
+Coefficients: 4, 3
+
+Properties
+- Implicit coefficient of 1: when no number is written before a variable, the coefficient is 1. So 
+  x = 1 ∙ x.
+- Implicit coefficient of -1: similarly, -x = -1 ∙ x.
+- Coefficient of a constant: a term with no variable, such as 7, is its own coefficient.
+
+----------------------------------------------------------------------------------------------------
+
+Constants
+A constant is a fixed value that does not change. Unlike variables, constants represent a specific 
+number and remain the same throughout an expression or equation.
+
+Expression: 4x² - 3x + 7
+Constants: 7
+
+Types of Constants
+- Numeric constants: explicit numbers in an expression, such as 7, -3, or 1/2.
+- Mathematical constants: fixed values with special significance, such as π or e.
+- Symbolic constants: letters used to represent a fixed but unspecified value, such as a in ax + b, 
+  where a and b are treated as constants and $x$ is the variable.
+
+Note
+When a constant is not a specific number, letters from the beginning of the alphabet (a, b, c) are 
+typically used to represent it.
+
+----------------------------------------------------------------------------------------------------
+
+Variables
+A variable is a symbol, typically a letter, that represents an unknown or changing value in an 
+expression or equation. Unlike constants, the value of a variable can vary depending on the context.
+
+Expression: 4x² - 3x + 7
+Variables: x
+
+Terminology
+- Independent variable: a variable whose value is chosen freely, typically x;
+- Dependent variable: a variable whose value depends on the independent variable, typically y;
+- Unknown: a variable representing a specific value that is yet to be determined, as in an equation 
+  to be solved.
+
+Properties
+- Convention: letters from the end of the alphabet (x, y, z) are typically used for variables;
+- Scope: the meaning of a variable depends on the context in which it is defined.

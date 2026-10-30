@@ -1,0 +1,103 @@
+Operator Precedence
+Operator precedence defines the order in which operations are performed in an expression. When 
+multiple operations are present, higher-precedence operations are evaluated first.
+
+Order of Operations
+The standard order of operations is commonly remembered by the acronym PEMDAS.
+1. "P"arentheses: expressions inside grouping symbols are evaluated first.
+2. "E"xponents: powers and roots are evaluated next.
+3. "M"ultiplication and "D"ivision: evaluated left to right.
+4. "A"ddition and "S"ubtraction: evaluated left to right.
+
+Note
+Multiplication and division share the same precedence level and are evaluated left to right. The 
+same applies to addition and subtraction.
+
+Examples
+x = (2² + 4) ∙ 3 - 6 / 2
+x = 8 ∙ 3 - 3
+x = 24 - 3
+x = 21
+
+----------------------------------------------------------------------------------------------------
+
+Rules of Signs
+The rules of signs define how positive and negative numbers interact under multiplication and 
+division. They determine the sign of the result based on the signs of the operands.
+ 
+Multiplication and Division
+Same signs produce a positive result. Different signs produce a negative result. The same rules 
+apply to division.
+
++ & + = +   
++ & - = -   
+- & + = -   
+- & - = +
+
+Addition and Subtraction
+Adding a negative number is equivalent to subtracting its absolute value. Subtracting a negative 
+number is equivalent to adding its absolute value.
+
+a + (-b) = a-b
+a - (-b) = a+b
+
+----------------------------------------------------------------------------------------------------
+
+Absolute Value
+The absolute value of a number is its distance from zero on the number line, regardless of 
+direction. It is always non-negative.
+
+|a| =   a if a ≥ 0
+      ⎨-a if a < 0
+
+Properties
+- Non-negative: |a| ≥ 0 for all a.
+- Identity: |a| = 0 if and only if a = 0.
+- Symmetry: |a| = |-a| so opposite numbers have the same absolute value.
+- Multiplicative: |a∙b| = |a|∙|b|.
+- Triangle inequality: |a+b| ≤ |a|+|b|.
+
+Examples
+|5| = 5,   |-5| = 5,   |-3+1| = |-2| = 2
+
+----------------------------------------------------------------------------------------------------
+
+Parentheses and Grouping Symbols
+Grouping symbols are used to indicate that the enclosed expression should be evaluated first, 
+overriding the default operator precedence. The most common grouping symbol is the parenthesis.
+
+(2 + 3) ∙ 4 = 5 ∙ 4 = 20
+
+Types of Grouping Symbols
+- Parentheses: the standard grouping symbol in algebra.
+- Fraction bar: the numerator and denominator of a fraction are each implicitly grouped.
+- Radical symbol: the expression under a radical is implicitly grouped.
+
+Nested Grouping
+When grouping symbols are nested, the innermost expression is evaluated first, working outwards.
+
+x = 3 ∙ (2 + (4 - 1))
+x = 3 ∙ (2 + 3)
+x = 3 ∙ 5
+x = 15
+
+Note
+Brackets [] and braces {} are also valid grouping symbols and may appear in some textbooks for 
+nested expressions. In algebra, parentheses are preferred in all contexts.
+
+----------------------------------------------------------------------------------------------------
+
+Evaluating Expressions
+Evaluating an expression means substituting the given values for each variable and computing the 
+result following the order of operations.
+
+given x=3
+y = 2x² - 5x + 1
+y = 2(3)² - 5(3) + 1
+y = 2(9) - 15 + 1
+y = 18 - 15 + 1
+y = 4
+
+To evaluate an expression:
+1. Substitute: replace each variable with its given value, using parentheses to avoid sign errors.
+2. Simplify: apply the order of operations to compute the result.

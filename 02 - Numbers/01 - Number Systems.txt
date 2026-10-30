@@ -1,6 +1,6 @@
 Natual Numbers
 Natural numbers are the most basic number system, representing the counting numbers used in everyday 
-life. TThey are the set of whole numbers starting from 0 and increasing infinitely.
+life. They are the set of whole numbers starting from 0 and increasing infinitely.
 
 ℕ = {0, 1, 2, 3, 4, 5, ...}
 
