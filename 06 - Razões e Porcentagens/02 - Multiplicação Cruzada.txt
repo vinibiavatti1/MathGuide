@@ -1,0 +1,38 @@
+Multiplicação Cruzada e Proporções
+Uma proporção é uma igualdade entre duas razões ou frações. Resolver uma proporção significa 
+encontrar o valor de uma variável desconhecida que satisfaz essa equivalência.
+
+x   c
+— = —
+b   d
+
+Multiplicação Cruzada
+Método algébrico de multiplicar os termos diagonalmente através de uma igualdade, multiplicando o 
+numerador de uma fração pelo denominador da outra.
+
+a   c
+— = — ⇔ a∙d = b∙c
+b   d
+
+Regra de Três Simples
+Aplicação da multiplicação cruzada para determinar um valor desconhecido a partir de três valores 
+conhecidos.
+
+x   c          b ∙ c
+— = —  ->  x = —————
+b   d            d
+
+Comparação de Frações
+Determina qual de duas frações é maior sem a necessidade de calcular o MMC dos denominadores.
+
+a   c
+— > — ⇔ a∙d > b∙c,   b > 0, d > 0
+b   d
+
+Exemplo
+Se um carro percorre 120 km com 10 litros de combustível, quantos quilômetros ele percorrerá com 25 
+litros?
+
+x    120                              120∙25   3000
+—— = ———  ->  10∙x = 120∙25  ->   x = —————— = ———— = 300 km
+25   10                                 10      10

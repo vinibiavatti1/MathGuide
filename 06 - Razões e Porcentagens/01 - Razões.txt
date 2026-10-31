@@ -1,0 +1,53 @@
+Razões
+Compara duas ou mais quantidades, expressando o tamanho relativo de cada valor em relação às outras.
+
+a:b,  b ≠ 0
+
+Formas alternativas: "a para b" ou na forma de fração:
+a
+—,  a para b
+b
+
+Terminologia
+- Termo: cada quantidade individual comparada (antecedente a e consequente b).
+- Razão Parte-Parte: compara um subconjunto a outro subconjunto (ex: número de garotos em relação às 
+  garotas).
+- Razão Parte-Todo: compara um subconjunto ao total (ex: número de garotos em relação ao total de 
+  alunos).
+
+Propriedades
+- A ordem importa: a sequência é estrita; a:b é diferente de b:a (salvo se a = b).
+- Escala adimensional: comparam grandezas relativas, sendo expressas sem unidades (desde que usem a 
+  mesma unidade de medida).
+
+Exemplos
+Em uma sala com 12 cães e 4 gatos, a razão de cães para gatos é:
+12:4  ou  3:1
+
+----------------------------------------------------------------------------------------------------
+
+Razões Equivalentes
+Razões que expressam a mesma relação proporcional entre quantidades, mesmo com termos numéricos 
+diferentes.
+
+a:b = (a∙k):(b∙k),  k ≠ 0
+
+Terminologia
+- Ampliação: multiplicar ambos os termos por um fator comum maior que 1.
+- Redução / Simplificação: dividir ambos os termos por um fator comum.
+- Forma Irredutível: termos sem divisores comuns além de 1 (mdc dos termos é 1).
+
+Propriedades
+- Multiplicação Cruzada: duas razões a:b e c:d são equivalentes se e somente se seus produtos 
+  cruzados são iguais:
+
+a:b = c:d ⇔ a∙d = b∙c
+
+Exemplos
+A razão 2:3 é equivalente a 4:6 e 10:15:
+
+2:3 = (2∙2):(3∙2) = 4:6,   (2∙5):(3∙5) = 10:15
+
+Verificação por multiplicação cruzada (2:3 e 4:6):
+
+2∙6 = 12  e  3∙4 = 12
