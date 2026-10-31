@@ -1,0 +1,45 @@
+Máximo Divisor Comum (MDC / GCD)
+O maior número inteiro positivo que divide ambos os números sem deixar resto.
+
+mdc(a, b) = max { d ∈ ℕ ∣ d|a  e  d|b }
+
+Como achar o MDC
+Liste os divisores de cada número e pegue o maior que eles têm em comum.
+
+mdc(12, 18)
+divisores de 12 = {1, 2, 3, 4, 6, 12}
+divisores de 18 = {1, 2, 3, 6, 9, 18}
+mdc(12, 18) = 6
+
+Propriedades
+- Comutativa: mdc(a, b) = mdc(b, a)
+- Identidade: mdc(a, 0) = a
+- Primos entre si: se mdc(a, b) = 1, eles são coprimos.
+
+----------------------------------------------------------------------------------------------------
+
+Mínimo Múltiplo Comum (MMC / LCM)
+O menor número inteiro positivo que é divisível por ambos os números.
+
+mmc(a, b) = min { m ∈ ℕ ∣ a|m  e  b|m }
+
+Como achar o MMC
+Liste os múltiplos de cada número e pegue o menor que eles têm em comum.
+
+mmc(4, 6)
+múltiplos de 4 = {4, 8, 12, 16, ...}
+múltiplos de 6 = {6, 12, 18, 24, ...}
+mmc(4, 6) = 12
+
+Relação com o MDC
+O MMC e o MDC de dois números se relacionam por esta fórmula:
+
+              a ∙ b
+mmc(a, b) = —————————
+            mdc(a, b)
+
+Propriedades
+- Comutativa: mmc(a, b) = mmc(b, a)
+- Identidade: mmc(a, 1) = a
+- Utilidade em frações: o MMC dos denominadores dá o menor denominador comum para somar ou subtrair 
+  frações.
