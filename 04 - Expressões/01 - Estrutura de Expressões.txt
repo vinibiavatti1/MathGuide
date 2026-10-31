@@ -1,71 +1,68 @@
-Terms
-A term is a single mathematical unit in an expression. It can be a number, a variable, or a product 
-of numbers and variables. Terms are separated from each other by addition or subtraction signs.
+Termos
+Unidade matemática única em uma expressão. Pode ser um número, uma variável ou o produto de números 
+e variáveis. Termos são separados por sinais de adição ou subtração.
 
-Expression: 4x² - 3x + 7
-Terms: 4x², -3x, 7
+Expressão: 4x² - 3x + 7
+Termos: 4x², -3x e 7
 
-Terminology
-- Monomial: an expression consisting of a single term, such as 3x².
-- Binomial: an expression consisting of two terms, such as x + 5.
-- Trinomial: an expression consisting of three terms, such as x² + 3x + 2.
-- Polynomial: a general expression consisting of one or more terms.
-- Like terms: terms that have the same variables raised to the same exponents. Only like terms can 
-  be added or subtracted.
-- Unlike terms: terms that differ in their variables or exponents. They cannot be combined.
+Terminologia
+- Monômio: expressão composta por um único termo (ex: 3x²).
+- Binômio: expressão composta por dois termos (ex: x + 5).
+- Trinômio: expressão composta por três termos (ex: x² + 3x + 2).
+- Polinômio: expressão geral composta por um ou mais termos.
+- Termos semelhantes: termos com as mesmas variáveis elevadas aos mesmos expoentes. Apenas termos 
+  semelhantes podem ser somados ou subtraídos.
+- Termos não semelhantes: termos com variáveis ou expoentes diferentes. Não podem ser combinados.
 
-Note 
-The sign preceding a term belongs to that term. In 4x² - 3x + 7, the second term is -3x, not 3x.
-
-----------------------------------------------------------------------------------------------------
-
-Coefficients
-A coefficient is the numerical factor of a term. It is the number that multiplies the variable or 
-variables in a term.
-
-Expression: 4x² - 3x + 7
-Coefficients: 4, 3
-
-Properties
-- Implicit coefficient of 1: when no number is written before a variable, the coefficient is 1. So 
-  x = 1 ∙ x.
-- Implicit coefficient of -1: similarly, -x = -1 ∙ x.
-- Coefficient of a constant: a term with no variable, such as 7, is its own coefficient.
+Nota
+O sinal que antecede o termo pertence a ele. Em 4x² - 3x + 7, o segundo termo é -3x, e não 3x.
 
 ----------------------------------------------------------------------------------------------------
 
-Constants
-A constant is a fixed value that does not change. Unlike variables, constants represent a specific 
-number and remain the same throughout an expression or equation.
+Coeficientes
+Fator numérico de um termo. É o número que multiplica a variável ou variáveis no termo.
 
-Expression: 4x² - 3x + 7
-Constants: 7
+Expressão: 4x² - 3x + 7
+Coeficientes: 4, -3 e 7
 
-Types of Constants
-- Numeric constants: explicit numbers in an expression, such as 7, -3, or 1/2.
-- Mathematical constants: fixed values with special significance, such as π or e.
-- Symbolic constants: letters used to represent a fixed but unspecified value, such as a in ax + b, 
-  where a and b are treated as constants and $x$ is the variable.
-
-Note
-When a constant is not a specific number, letters from the beginning of the alphabet (a, b, c) are 
-typically used to represent it.
+Propriedades
+- Coeficiente implícito 1: quando nenhum número é escrito antes da variável, o coeficiente é 1 
+  (x = 1 ∙ x).
+- Coeficiente implícito -1: analogamente, -x = -1 ∙ x.
+- Coeficiente de uma constante: um termo sem variável (ex: 7) é seu próprio coeficiente.
 
 ----------------------------------------------------------------------------------------------------
 
-Variables
-A variable is a symbol, typically a letter, that represents an unknown or changing value in an 
-expression or equation. Unlike constants, the value of a variable can vary depending on the context.
+Constantes
+Valor fixo que não se altera. Ao contrário das variáveis, representam um número específico e 
+permanecem inalteradas ao longo de uma expressão ou equação.
 
-Expression: 4x² - 3x + 7
-Variables: x
+Expressão: 4x² - 3x + 7
+Constante: 7
 
-Terminology
-- Independent variable: a variable whose value is chosen freely, typically x;
-- Dependent variable: a variable whose value depends on the independent variable, typically y;
-- Unknown: a variable representing a specific value that is yet to be determined, as in an equation 
-  to be solved.
+Tipos de Constantes
+- Constantes numéricas: números explícitos na expressão (ex: 7, -3, 1/2).
+- Constantes matemáticas: valores fixos com significado especial (ex: π, e).
+- Constantes simbólicas: letras usadas para representar valores fixos, mas genéricos (ex: a em 
+  ax + b, onde a e b são constantes e x é a variável).
 
-Properties
-- Convention: letters from the end of the alphabet (x, y, z) are typically used for variables;
-- Scope: the meaning of a variable depends on the context in which it is defined.
+Nota
+Por convenção, letras do início do alfabeto (a, b, c) representam constantes genéricas.
+
+----------------------------------------------------------------------------------------------------
+
+Variáveis
+Símbolo (geralmente uma letra) que representa um valor desconhecido ou variável em uma expressão ou 
+equação.
+
+Expressão: 4x² - 3x + 7
+Variável: x
+
+Terminologia
+- Variável independente: variável cujo valor é escolhido livremente (geralmente x).
+- Variável dependente: variável cujo valor depende da variável independente (geralmente y).
+- Incógnita: variável que representa um valor específico a ser determinado em uma equação.
+
+Propriedades
+- Convenção: letras do final do alfabeto (x, y, z) são usadas tipicamente para variáveis.
+- Escopo: o significado e os valores possíveis de uma variável dependem do contexto definido.

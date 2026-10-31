@@ -1,148 +1,122 @@
-Odd Numbers
-Odd numbers are integers that cannot be divided evenly by 2. They always leave a remainder of 1 when 
-divided by 2. An odd number is typically represented as 2k + 1, where k is any integer.
-
-n = 2k + 1, k ∈ ℤ
-
-Properties
-- Not divisible by 2: dividing an odd number by 2 always leaves a remainder of 1.
-- Closed under multiplication: multiplying two odd numbers always produces an odd number.
-- Not closed under addition: adding two odd numbers always produces an even number.
-
-Examples
-..., -3, -1, 1, 3, 5, 7, ...
-
-----------------------------------------------------------------------------------------------------
-
-Even Numbers
-Even numbers are integers that can be divided evenly by 2. They always leave a remainder of 0 when 
-divided by 2. An even number is typically represented as 2k, where k is any integer.
+Números Pares
+Números inteiros divisíveis por 2, deixando sempre resto 0 na divisão.
 
 n = 2k, k ∈ ℤ
 
-Properties
-- Divisible by 2: dividing an even number by 2 always produces an integer.
-- Closed under addition and subtraction: adding or subtracting two even numbers always produces an 
-  even number.
-- Closed under multiplication: multiplying two even numbers always produces an even number.
-- 0 is an even number: 0 = 2 ∙ 0, so 0 satisfies the definition.
+Propriedades
+- Divisível por 2: a divisão por 2 deixa resto 0.
+- Fechado sob adição e subtração: operar dois pares resulta sempre em um número par.
+- Fechado sob multiplicação: produto de dois pares gera sempre um número par.
+- O zero é par: 0 = 2 ∙ 0, satisfazendo a definição.
 
-Examples
+Exemplos
 ..., -4, -2, 0, 2, 4, 6, ...
 
 ----------------------------------------------------------------------------------------------------
 
-Prime Numbers
-Prime numbers are natural numbers greater than 1 that have exactly two distinct divisors: 1 and 
-themselves. A number p is prime if it cannot be expressed as a product of two smaller natural 
-numbers.
+Números Ímpares
+Números inteiros não divisíveis por 2, deixando sempre resto 1 na divisão.
 
-p ∈ ℕ, p > 1, divisors(p) = {1, p}
+n = 2k + 1, k ∈ ℤ
 
-Properties
-- Greater than 1: by definition, 1 is not a prime number.
-- Exactly two divisors: a prime number is only divisible by 1 and itself.
-- Infinite: there are infinitely many prime numbers.
-- Fundamental theorem of arithmetic: every natural number greater than 1 is either prime or can be 
-  expressed as a unique product of prime numbers.
+Propriedades
+- Não divisível por 2: a divisão por 2 sempre deixa resto 1.
+- Fechado sob multiplicação: produto de dois ímpares é sempre ímpar.
+- Não fechado sob adição: soma de dois ímpares gera sempre um número par.
 
-Examples
-The first prime numbers are:
+Exemplos
+..., -3, -1, 1, 3, 5, 7, ...
 
+----------------------------------------------------------------------------------------------------
+
+Números Primos
+Números naturais maiores que 1 com exatamente dois divisores distintos: 1 e eles mesmos.
+
+p ∈ ℕ, p > 1, divisores(p) = {1, p}
+
+Propriedades
+- Maior que 1: por definição, o número 1 não é primo.
+- Exatamente dois divisores: divisível apenas por 1 e por ele mesmo.
+- Infinito: existem infinitos números primos.
+- Teorema Fundamental da Aritmética: todo natural maior que 1 é primo ou se decompõe em um produto único de fatores primos.
+
+Exemplos
 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...
 
-Note
-2 is the only even prime number, as every other even number is divisible by 2.
+Nota
+2 é o único número par que é primo.
 
 ----------------------------------------------------------------------------------------------------
 
-Composite Numbers
-Composite numbers are natural numbers greater than 1 that have more than two distinct divisors. A 
-number n is composite if it can be expressed as a product of two smaller natural numbers.
+Números Compostos
+Números naturais maiores que 1 que possuem mais de dois divisores distintos.
 
-n ∈ ℕ, n > 1, divisors(n) ≠ {1, n}
+n ∈ ℕ, n > 1, divisores(n) ≠ {1, n}
 
-Properties
-- Greater than 1: by definition, 1 is neither prime nor composite.
-- At least three divisors: a composite number is divisible by 1, itself, and at least one other 
-  number.
-- Expressible as a product of primes: by the fundamental theorem of arithmetic, every composite 
-  number can be written as a unique product of prime numbers.
-- Every even number greater than 2 is composite: since it is divisible by 2.
+Propriedades
+- Maior que 1: o número 1 não é primo nem composto.
+- Três ou mais divisores: divisível por 1, por ele mesmo e por pelo menos mais um inteiro.
+- Fatorável em primos: por ser composto, pode ser decomposto em produto de fatores primos.
+- Todo par maior que 2 é composto.
 
-Examples
-The first composite numbers are:
-
+Exemplos
 4, 6, 8, 10, 12, 14, 15, 16, 18, ...
 
-Note
-4 is the smallest composite number, as it has three divisors: 1, 2 and 4.
+Nota
+4 é o menor número composto (divisores: {1, 2, 4}).
 
 ----------------------------------------------------------------------------------------------------
 
-Perfect Numbers
-Perfect numbers are natural numbers that are equal to the sum of their proper divisors, that is, all 
-divisors excluding the number itself.
+Números Perfeitos
+Números naturais iguais à soma de todos os seus divisores próprios (excluindo o próprio número).
 
-∑{d ∈ divisors(n), d ≠ n} = n
+∑{d ∈ divisores(n) ∣ d ≠ n} = n
 
-Properties
-- Rare: perfect numbers are extremely rare, only a few are known.
-- All known perfect numbers are even: no odd perfect number has ever been found, though none has 
-  been proved not to exist.
-- All known perfect numbers end in 6 or 8: this is a consequence of their structure.
-- Related to Mersenne primes: every even perfect number corresponds to a Mersenne prime of the 
-  form 2ⁿ⁻¹(2ⁿ - 1), where 2ⁿ - 1 is prime.
+Propriedades
+- Raros: são os naturais iguais à soma dos seus divisores próprios (exclui o próprio número).
+- Todos os conhecidos são pares: nenhum número perfeito ímpar foi encontrado até hoje (embora não haja prova de sua inexistência).
+- Terminam em 6 ou 8: propriedade observada em todos os números perfeitos conhecidos.
+- Relação com Primos de Mersenne: todo número perfeito par tem a forma 2ⁿ⁻¹(2ⁿ - 1), onde (2ⁿ - 1) é um primo de Mersenne.
 
-Examples
-The first perfect numbers are:
-
+Exemplos
 6, 28, 496, 8128, ...
 
-Note
-6 is the smallest perfect number: its proper divisors are 1, 2 and 3, and 1 + 2 + 3 = 6.
+Nota
+6 é o menor número perfeito (divisores próprios: 1, 2, 3; soma: 1 + 2 + 3 = 6).
 
 ----------------------------------------------------------------------------------------------------
 
-Perfect Squares
-Perfect squares are natural numbers that result from multiplying an integer by itself. A number n is 
-a perfect square if there exists an integer k such that n = k².
+Quadrados Perfeitos
+Números naturais resultantes do produto de um número inteiro por ele mesmo.
 
 n = k², k ∈ ℤ
 
-Properties
+Propriedades
+- Não negativos: k² ≥ 0 para todo k ∈ ℤ.
+- Raiz quadrada inteira: a raiz quadrada de um quadrado perfeito é sempre um número inteiro.
+- Simplificação de radicais: fatores que são quadrados perfeitos podem ser extraídos da raiz.
 
-- Always non-negative: since k² ≥ 0 for any integer k.
-- Square root is an integer: the square root of a perfect square is always a whole number.
-- Useful in simplifying radicals: perfect square factors can be extracted from square roots.
-
-Examples
-The first perfect squares are:
-
+Exemplos
 0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, ...
 
-Note
-These correspond to 0², 1², 2², 3², 4², 5², 6², 7², 8², 9², 10².
+Nota
+Correspondem a 0², 1², 2², 3², 4², 5², 6², 7², 8², 9², 10².
 
 ----------------------------------------------------------------------------------------------------
 
-Perfect Cubes
-Perfect cubes are numbers that result from multiplying an integer by itself three times. A number n 
-is a perfect cube if there exists an integer k such that n = k³.
+Cubos Perfeitos
+Números resultantes da multiplicação de um número inteiro por ele mesmo três vezes.
 
 n = k³, k ∈ ℤ
 
-Properties
+Propriedades
+- Podem ser negativos: (-k)³ = -k³, logo números negativos também podem ser cubos perfeitos.
+- Raiz cúbica inteira: a raiz cúbica de um cubo perfeito é sempre um número inteiro.
+- Simplificação de radicais: fatores que são cubos perfeitos podem ser extraídos de raízes cúbicas.
 
-- Can be negative: since (-k)³ = -k³, negative numbers can be perfect cubes.
-- Cube root is an integer: the cube root of a perfect cube is always a whole number.
-- Useful in simplifying radicals: perfect cube factors can be extracted from cube roots.
-
-Examples
-The first perfect cubes are:
-
+Exemplos
 0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, ...
 
-Note
-These correspond to 0³, 1³, 2³, 3³, 4³, 5³, 6³, 7³, 8³, 9³, 10³.
-Negative perfect cubes follow the same pattern: (-2)³ = -8, (-3)³ = -27, and so on.
+Nota
+Correspondem a 0³, 1³, 2³, 3³, 4³, 5³, 6³, 7³, 8³, 9³, 10³.
+Para inteiros negativos: (-2)³ = -8, (-3)³ = -27.

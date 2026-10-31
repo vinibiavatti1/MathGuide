@@ -1,0 +1,85 @@
+Adição de Frações
+Combina duas ou mais frações em uma única fração. Denominadores iguais somam-se diretamente; 
+denominadores diferentes exigem o uso do Mínimo Múltiplo Comum (MMC).
+
+Mesmo Denominador
+Mantém o denominador e soma os numeradores.
+
+a   b   a + b
+— + — = —————
+c   c     c
+
+Denominadores Diferentes
+Reescreve cada fração usando o MMC dos denominadores.
+
+a   c   a∙(mmc(b,d)/b) + c∙(mmc(b,d)/d)
+— + — = ———————————————————————————————
+b   d               mmc(b,d)
+
+Exemplo
+
+2   3                   2∙(12/4) + 3∙(12/6)   2∙3 + 3∙2   6+6   12
+— + — -> mmc(4,6)=12 -> ——————————————————— = ————————— = ——— = —— = 1
+4   6                           12               12       12    12
+
+Nota
+Usar o MMC como denominador comum mantém os números o mais baixos possível, frequentemente evitando 
+simplificações posteriores.
+
+----------------------------------------------------------------------------------------------------
+
+Subtração de Frações
+Calcula a diferença entre frações. O processo é idêntico ao da adição, exigindo o MMC quando os 
+denominadores diferem.
+
+Mesmo Denominador
+Mantém o denominador e subtrai os numeradores.
+
+a   b   a - b
+— - — = —————
+c   c     c
+
+Denominadores Diferentes
+Reescreve cada fração usando o MMC, depois subtrai os numeradores.
+
+a   c   a∙(mmc(b,d)/b) - c∙(mmc(b,d)/d)
+— - — = ———————————————————————————————
+b   d               mmc(b,d)
+
+Exemplo
+
+2   3                   2∙(12/4) - 3∙(12/6)   2∙3 - 3∙2   6-6   0
+— - — -> mmc(4,6)=12 -> ——————————————————— = ————————— = ——— = —— = 0
+4   6                           12               12       12    12
+
+----------------------------------------------------------------------------------------------------
+
+Multiplicação de Frações
+Calcula o produto de frações. Não é necessário denominador comum; multiplicam-se os numeradores 
+entre si e os denominadores entre si.
+
+a   c   a ∙ c
+— ∙ — = —————,   b ≠ 0 e d ≠ 0
+b   d   b ∙ d
+
+Exemplo
+
+2   3   6    1
+— ∙ — = —— = —
+3   4   12   2
+
+----------------------------------------------------------------------------------------------------
+
+Divisão de Frações
+Calcula o quociente entre frações. Multiplica-se a primeira fração pelo inverso da segunda (método 
+de inverter e multiplicar).
+
+a   c   a   d
+— ÷ — = — ∙ —,   b ≠ 0, c ≠ 0 e d ≠ 0
+b   d   b   c
+
+Exemplo
+
+2   4   2   5   2 ∙ 5   10   10 ÷ 2   5
+— ÷ — = — ∙ — = ————— = —— = —————— = —
+3   5   3   4   3 ∙ 4   12   12 ÷ 2   6

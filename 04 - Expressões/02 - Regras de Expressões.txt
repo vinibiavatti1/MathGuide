@@ -1,19 +1,17 @@
-Operator Precedence
-Operator precedence defines the order in which operations are performed in an expression. When 
-multiple operations are present, higher-precedence operations are evaluated first.
+Precedência de Operadores
+Define a ordem em que as operações devem ser executadas em uma expressão, priorizando as de maior 
+precedência.
 
-Order of Operations
-The standard order of operations is commonly remembered by the acronym PEMDAS.
-1. "P"arentheses: expressions inside grouping symbols are evaluated first.
-2. "E"xponents: powers and roots are evaluated next.
-3. "M"ultiplication and "D"ivision: evaluated left to right.
-4. "A"ddition and "S"ubtraction: evaluated left to right.
+Ordem de Operações (PEMDAS)
+1. Parênteses: expressões dentro de símbolos de agrupamento.
+2. Expoentes: potências e raízes.
+3. Multiplicação e Divisão: avaliadas da esquerda para a direita.
+4. Adição e Subtração: avaliadas da esquerda para a direita.
 
-Note
-Multiplication and division share the same precedence level and are evaluated left to right. The 
-same applies to addition and subtraction.
+Nota
+Multiplicação e divisão compartilham o mesmo nível de precedência, assim como adição e subtração.
 
-Examples
+Exemplos
 x = (2² + 4) ∙ 3 - 6 / 2
 x = 8 ∙ 3 - 3
 x = 24 - 3
@@ -21,83 +19,82 @@ x = 21
 
 ----------------------------------------------------------------------------------------------------
 
-Rules of Signs
-The rules of signs define how positive and negative numbers interact under multiplication and 
-division. They determine the sign of the result based on the signs of the operands.
- 
-Multiplication and Division
-Same signs produce a positive result. Different signs produce a negative result. The same rules 
-apply to division.
+Regras de Sinais
+Regras que determinam como números positivos e negativos interagem nas operações aritméticas.
 
-+ & + = +   
-+ & - = -   
-- & + = -   
-- & - = +
+Multiplicação e Divisão
+Sinais iguais produzem resultado positivo; sinais diferentes produzem resultado negativo (válido também para divisão).
 
-Addition and Subtraction
-Adding a negative number is equivalent to subtracting its absolute value. Subtracting a negative 
-number is equivalent to adding its absolute value.
++ ∙ + = +  
++ ∙ - = -  
+- ∙ + = -  
+- ∙ - = +
 
-a + (-b) = a-b
-a - (-b) = a+b
+Adição e Subtração
+Somar um número negativo equivale a subtrair seu valor absoluto; subtrair um negativo equivale a 
+somar.
+
+a + (-b) = a - b
+a - (-b) = a + b
 
 ----------------------------------------------------------------------------------------------------
 
-Absolute Value
-The absolute value of a number is its distance from zero on the number line, regardless of 
-direction. It is always non-negative.
+Valor Absoluto (Módulo)
+A distância de um número até o zero na reta numérica, independentemente da direção. É sempre um 
+valor não negativo.
 
-|a| =   a if a ≥ 0
-      ⎨-a if a < 0
+|a| = a, se a ≥ 0
+|a| = -a, se a < 0
 
-Properties
-- Non-negative: |a| ≥ 0 for all a.
-- Identity: |a| = 0 if and only if a = 0.
-- Symmetry: |a| = |-a| so opposite numbers have the same absolute value.
-- Multiplicative: |a∙b| = |a|∙|b|.
-- Triangle inequality: |a+b| ≤ |a|+|b|.
+Propriedades
+- Não negativo: |a| ≥ 0 para todo a.
+- Identidade: |a| = 0 se e somente se a = 0.
+- Simetria: |a| = |-a| (números opostos possuem o mesmo módulo).
+- Multiplicativo: |a ∙ b| = |a| ∙ |b|.
+- Desigualdade triangular: |a + b| ≤ |a| + |b|.
 
-Examples
-|5| = 5,   |-5| = 5,   |-3+1| = |-2| = 2
+Exemplos
+|5| = 5,  |-5| = 5,  |-3 + 1| = |-2| = 2
 
 ----------------------------------------------------------------------------------------------------
 
-Parentheses and Grouping Symbols
-Grouping symbols are used to indicate that the enclosed expression should be evaluated first, 
-overriding the default operator precedence. The most common grouping symbol is the parenthesis.
+Parênteses e Símbolos de Agrupamento
+Símbolos usados para indicar que a expressão interna deve ser avaliada primeiro, sobrepondo a precedência padrão.
 
 (2 + 3) ∙ 4 = 5 ∙ 4 = 20
 
-Types of Grouping Symbols
-- Parentheses: the standard grouping symbol in algebra.
-- Fraction bar: the numerator and denominator of a fraction are each implicitly grouped.
-- Radical symbol: the expression under a radical is implicitly grouped.
+Tipos de Símbolos
+- Parênteses (): símbolo padrão de agrupamento em álgebra.
+- Barra de fração: o numerador e o denominador são implicitamente agrupados.
+- Símbolo radical: a expressão sob o radical é implicitamente agrupada.
 
-Nested Grouping
-When grouping symbols are nested, the innermost expression is evaluated first, working outwards.
+Agrupamento Aninhado
+Avalia-se primeiro a expressão mais interna, avançando para fora.
 
 x = 3 ∙ (2 + (4 - 1))
 x = 3 ∙ (2 + 3)
 x = 3 ∙ 5
 x = 15
 
-Note
-Brackets [] and braces {} are also valid grouping symbols and may appear in some textbooks for 
-nested expressions. In algebra, parentheses are preferred in all contexts.
+Nota
+Colchetes ([]) e chaves ({}) também são válidos para expressões aninhadas, mas parênteses são 
+preferidos em álgebra.
 
 ----------------------------------------------------------------------------------------------------
 
-Evaluating Expressions
-Evaluating an expression means substituting the given values for each variable and computing the 
-result following the order of operations.
+Avaliação de Expressões
+Processo de substituir as variáveis de uma expressão por valores dados e computar o resultado final.
 
-given x=3
-y = 2x² - 5x + 1
+Dada a expressão:
+y = 2x² - 5x + 1,  para x = 3
+
+Cálculo:
 y = 2(3)² - 5(3) + 1
 y = 2(9) - 15 + 1
 y = 18 - 15 + 1
 y = 4
 
-To evaluate an expression:
-1. Substitute: replace each variable with its given value, using parentheses to avoid sign errors.
-2. Simplify: apply the order of operations to compute the result.
+Procedimento
+1. Substituição: substituir cada variável pelo seu valor numérico, usando parênteses para evitar 
+   erros de sinal.
+2. Simplificação: aplicar a ordem de operações para computar o resultado.

@@ -1,0 +1,70 @@
+Frações e Divisão
+Uma fração representa a divisão de dois inteiros, onde o numerador é dividido pelo denominador. 
+Expressa parte de um todo ou uma razão entre duas quantidades.
+
+a
+— = a/b = a÷b,   b ≠ 0
+b
+
+Terminologia
+- Numerador (a): número acima da barra de fração, representando a parte considerada.
+- Denominador (b): número abaixo da barra de fração, representando o total de partes.
+- Barra de fração: símbolo que separa numerador e denominador, representando a divisão.
+
+Propriedades
+- Denominador não pode ser zero: divisão por zero é indefinida, logo b ≠ 0.
+- Sinal: uma fração é negativa se o numerador ou o denominador for negativo, mas não ambos.
+- Frações equivalentes: multiplicar ou dividir ambos, numerador e denominador, pelo mesmo número não 
+  nulo produz uma fração equivalente.
+
+a   a ∙ k
+— = —————,  k ≠ 0
+b   b ∙ k
+
+Exemplos
+
+1
+—,  1/2,  -5/3
+2
+
+----------------------------------------------------------------------------------------------------
+
+Inteiros como Frações
+Todo número inteiro pode ser expresso como uma fração colocando-o sobre um denominador igual a 1. 
+Isto demonstra que os inteiros são um subconjunto dos números racionais.
+
+    n
+n = —,  n ∈ ℤ
+    1
+
+Propriedades
+- Todo inteiro é uma fração: qualquer inteiro "n" pode ser escrito como n/1.
+- Representações equivalentes: um inteiro pode ser expresso como qualquer fração em que o numerador 
+  seja um múltiplo do denominador.
+
+    3   6   9
+3 = — = — = —
+    1   2   3
+
+----------------------------------------------------------------------------------------------------
+
+Simplificação de Frações
+Simplificar uma fração significa reescrevê-la em sua forma irredutível, onde o numerador e o 
+denominador não compartilham nenhum divisor comum além de 1.
+
+a     a ÷ mdc(a, b)
+— = ———————————————
+b     b ÷ mdc(a, b)
+
+Processo
+Para simplificar uma fração, encontre o MDC do numerador e do denominador, então divida ambos por 
+ele.
+
+12                     12 ÷ 6   2
+—— -> mdc(12, 18)=6 -> —————— = —
+18                     18 ÷ 6   3
+
+Propriedades
+- Valor equivalente: uma fração simplificada representa o mesmo valor da original.
+- Forma irredutível única: toda fração possui exatamente uma forma mais simples.
+- Já simplificada: uma fração está em seus termos mínimos quando mdc(a, b) = 1.

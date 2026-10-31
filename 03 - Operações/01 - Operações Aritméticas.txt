@@ -1,77 +1,74 @@
-Addition
-Addition is the most basic arithmetic operation, combining two or more numbers into a single value 
-called the sum. It represents the total of two quantities placed together.
+Adição
+Operação aritmética básica que combina duas ou mais quantidades em um único valor chamado soma.
 
 a + b = c
 
-Properties
-- Commutative: the order of the operands does not affect the result, a + b = b + a.
-- Associative: the grouping of the operands does not affect the result, (a + b) + c = a + (b + c).
-- Identity element: adding 0 to any number leaves it unchanged, a + 0 = a.
-- Inverse element: adding the opposite of a number always produces 0, a + (-a) = 0.
+Propriedades
+- Comutativa: a ordem dos operandos não altera o resultado, a + b = b + a.
+- Associativa: o agrupamento dos operandos não altera o resultado, (a + b) + c = a + (b + c).
+- Elemento neutro: somar 0 a qualquer número não altera seu valor, a + 0 = a.
+- Elemento inverso (oposto): a soma de um número com seu oposto resulta em 0, a + (-a) = 0.
 
-Examples
-3 + 2 = 5,   -4 + 7 = 3,   10 + (-6) = 4
+Exemplos
+3 + 2 = 5,  -4 + 7 = 3,  10 + (-6) = 4
 
 ----------------------------------------------------------------------------------------------------
 
-Subtraction
-Subtraction is an arithmetic operation that finds the difference between two numbers. It represents 
-the removal of a quantity from another.
+Subtração
+Operação aritmética que calcula a diferença entre dois números, representando a remoção de uma 
+quantidade de outra.
 
 a - b = c
 
-Properties
-- Not Commutative: the order of the operands affects the result, a - b ≠ b - a.
-- Not associative: the grouping of the operands affects the result, (a - b) - c ≠ a - (b - c).
-- Identity element: subtracting 0 from any number leaves it unchanged, a - 0 = a.
-- Relation to addition: subtraction is equivalent to adding the opposite, a - b = a + (-b).
+Propriedades
+- Não comutativa: a ordem dos operandos altera o resultado, a - b ≠ b - a.
+- Não associativa: o agrupamento dos operandos altera o resultado, (a - b) - c ≠ a - (b - c).
+- Elemento neutro à direita: subtrair 0 de qualquer número não altera seu valor, a - 0 = a.
+- Relação com a adição: subtrair é equivalente a somar o oposto, a - b = a + (-b).
 
-Examples
-7 - 3 = 4,   2 - 8 = -6,   -5 - (-3) = -2
-
-----------------------------------------------------------------------------------------------------
-
-Multiplication
-Multiplication is an arithmetic operation that finds the product of two numbers. It represents 
-repeated addition of a quantity.
-
-a ∙ b = c, ab = c
-
-Properties
-- Commutative: the order of the operands does not affect the result, a ∙ b = b ∙ a.
-- Associative: the grouping of the operands does not affect the result, (a ∙ b) ∙ c = a ∙ (b ∙ c).
-- Distributive over addition: multiplication distributes over addition, a ∙ (b + c) = a ∙ b + a ∙ c.
-- Identity element: multiplying any number by 1 leaves it unchanged, a ∙ 1 = a.
-- Zero property: multiplying any number by 0 always produces 0, a ∙ 0 = 0.
-
-Examples
-
-3 ∙ 4 = 12,   -2 ∙ 5 = -10,   6 ∙ (-3) = -18,   ab = a ∙ b
-
-Note
-In algebra, ∙ is the conventional notation for multiplication. The symbol × is also valid but 
-less common in algebraic contexts. When multiplying variables, the ∙ can be omitted entirely, so 
-a ∙ b is written as ab.
+Exemplos
+7 - 3 = 4,  2 - 8 = -6,  -5 - (-3) = -2
 
 ----------------------------------------------------------------------------------------------------
 
-Division
-Division is an arithmetic operation that finds the quotient of two numbers. It represents splitting 
-a quantity into equal parts.
+Multiplicação
+Operação aritmética que calcula o produto de dois números, representando a adição repetida de uma 
+quantidade.
 
-a/b = c, b ≠ 0
+a ∙ b = c,  ab = c
 
-Properties
-- Not commutative: the order of the operands affects the result, a/b ≠ b/a;
-- Not associative: the grouping of the operands affects the result, (a/b)/c ≠ a/(b/c);
-- Identity element: dividing any number by 1 leaves it unchanged, a/1 = a;
-- Inverse of multiplication: division is the inverse operation of multiplication, (a∙b)/b = a.
-- Division by zero is undefined: a/0 has no defined value for any a.
+Propriedades
+- Comutativa: a ordem dos fatores não altera o produto, a ∙ b = b ∙ a.
+- Associativa: o agrupamento dos fatores não altera o produto, (a ∙ b) ∙ c = a ∙ (b ∙ c).
+- Distributiva em relação à adição: a ∙ (b + c) = a ∙ b + a ∙ c.
+- Elemento neutro: multiplicar qualquer número por 1 não altera seu valor, a ∙ 1 = a.
+- Propriedade do zero: multiplicar qualquer número por 0 resulta em 0, a ∙ 0 = 0.
 
-Examples
-12/4 = 3,   -10/2 = -5,   7/1 = 7
+Exemplos
+3 ∙ 4 = 12,  -2 ∙ 5 = -10,  6 ∙ (-3) = -18,  ab = a ∙ b
 
-Note
-In algebra, the fraction notation a/b is the conventional form for division. The obelus 
-symbol ÷ is also valid but rarely used in algebraic contexts.
+Nota
+Em álgebra, o ponto (∙) é a notação convencional. O símbolo × é válido, mas menos comum. Entre 
+variáveis, o ponto pode ser omitido (ab = a ∙ b).
+
+----------------------------------------------------------------------------------------------------
+
+Divisão
+Operação aritmética que calcula o quociente entre dois números, representando a divisão de uma 
+quantidade em partes iguais.
+
+a/b = c,  b ≠ 0
+
+Propriedades
+- Não comutativa: a ordem dos operandos altera o resultado, a/b ≠ b/a.
+- Não associativa: o agrupamento dos operandos altera o resultado, (a/b)/c ≠ a/(b/c).
+- Elemento neutro à direita: dividir qualquer número por 1 não altera seu valor, a/1 = a.
+- Inversa da multiplicação: (a ∙ b) / b = a.
+- Divisão por zero é indefinida: a/0 não possui valor definido para nenhum a.
+
+Exemplos
+12/4 = 3,  -10/2 = -5,  7/1 = 7
+
+Nota
+Em álgebra, a notação de fração a/b é a forma convencional. O símbolo obelo (÷) é válido, mas 
+raramente usado em contextos algébricos.

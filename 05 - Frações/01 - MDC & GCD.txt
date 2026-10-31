@@ -1,4 +1,4 @@
-Máximo Divisor Comum (MDC / GCD)
+Máximo Divisor Comum (MDC / inglês:GCD)
 O maior número inteiro positivo que divide ambos os números sem deixar resto.
 
 mdc(a, b) = max { d ∈ ℕ ∣ d|a  e  d|b }
@@ -18,7 +18,7 @@ Propriedades
 
 ----------------------------------------------------------------------------------------------------
 
-Mínimo Múltiplo Comum (MMC / LCM)
+Mínimo Múltiplo Comum (MMC / inglês:LCM)
 O menor número inteiro positivo que é divisível por ambos os números.
 
 mmc(a, b) = min { m ∈ ℕ ∣ a|m  e  b|m }

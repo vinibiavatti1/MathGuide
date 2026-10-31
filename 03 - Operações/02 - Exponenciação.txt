@@ -1,70 +1,48 @@
-Power Notation
-Power notation is a compact way to express repeated multiplication of a number by itself. The base 
-is the number being multiplied, and the exponent indicates how many times it is multiplied.
+Exponenciação
+Forma compacta de expressar a multiplicação repetida de um número por ele mesmo.
 
-aⁿ = a∙a∙a…a, n ∈ ℕ
+aⁿ = a ∙ a ∙ a ... a  (n fatores), n ∈ ℕ
 
-Terminology
-- Base: the number being multiplied by itself.
-- Exponent: the number of times the base is multiplied by itself.
-- Power: the value obtained from the operation.
-- Square: the result of raising a number to the power of 2, a².
-- Cube: the result of raising a number to the power of 3, a³.
+Terminologia
+- Base (a): o número multiplicando a si mesmo.
+- Expoente (n): a quantidade de vezes que a base é multiplicada.
+- Potência: o valor resultante da operação.
+- Quadrado: resultado de elevar um número à potência 2 (a²).
+- Cubo: resultado de elevar um número à potência 3 (a³).
 
-Examples
-2³ = 2∙2∙2 = 8,   5² = 5∙5 = 25,   10⁴ = 10∙10∙10∙10 = 10000
-
-----------------------------------------------------------------------------------------------------
-
-Exponent Laws
-Exponent laws are rules that define how to simplify and manipulate expressions involving powers. 
-They apply whenever the base is a non-zero real number.
-
-Product Rule
-Multiplying two powers with the same base adds the exponents.
-
-aⁿ∙aᵐ = aⁿ⁺ᵐ
-
-Quotient Rule
-Dividing two powers with the same base subtracts the exponents.
-
-aⁿ/aᵐ = aⁿ⁻ᵐ,   a ≠ 0
-
-Power Rule
-Raising a power to another exponent multiplies the exponents.
-
-(aⁿ)ᵐ = aⁿ˙ᵐ
-
-Product to a Power
-A product raised to an exponent distributes to each factor.
-
-(a∙b)ⁿ = aⁿ∙bⁿ
-
-Quotient to a Power
-A quotient raised to an exponent distributes to the numerator and denominator.
-
-(a/b)ⁿ = aⁿ/bⁿ,   b ≠ 0
+Exemplos
+2³ = 2 ∙ 2 ∙ 2 = 8,   5² = 5 ∙ 5 = 25,   10⁴ = 10 ∙ 10 ∙ 10 ∙ 10 = 10000
 
 ----------------------------------------------------------------------------------------------------
 
-Special Exponent Values
-Certain exponent values produce results that are consistent across bases. These special cases are 
-defined by extending the exponent laws consistently.
+Leis dos Expoentes
+Regras para simplificar e manipular expressões com potências com base real não nula.
 
-Base Zero:     0ⁿ = 0,   n > 0
-Exponent Zero: a⁰ = 1,   a ≠ 0
-Base One:      1ⁿ = 1
-Exponent One:  a¹ = a
-Neg. Base:    -aⁿ = -(aⁿ)
-Neg. Exponent: a⁻ⁿ = 1/aⁿ,   a ≠ 0
+aⁿ ∙ aᵐ   =  aⁿ⁺ᵐ
+aⁿ / aᵐ   =  aⁿ⁻ᵐ,  a ≠ 0
+(aⁿ)ᵐ     =  aⁿ˙ᵐ
+(a ∙ b)ⁿ  =  aⁿ ∙ bⁿ
+(a / b)ⁿ  =  aⁿ / bⁿ,  b ≠ 0
 
-Base and Exponent Zero
-Is undefined/indeterminate in most mathematical contexts, as it leads to contradictions.
+----------------------------------------------------------------------------------------------------
 
-0⁰ = undefined
+Valores Especiais de Expoente
+Casos particulares decorrentes das leis dos expoentes.
 
-Fractional Exponents
-A fractional exponent represents a radical. The denominator indicates the root index and the 
-numerator indicates the power.
+Base Zero:       0ⁿ  =  0,  n > 0
+Expoente Zero:   a⁰  =  1,  a ≠ 0
+Base Um:         1ⁿ  =  1
+Expoente Um:     a¹  =  a
+Base Negativa:  -aⁿ  =  -(aⁿ)
+Expoente Neg.:   a⁻ⁿ =  1 / aⁿ,  a ≠ 0
 
-aᵐ/ⁿ = ⁿ√(aᵐ),   a ≥ 0
+Base e Expoente Zero
+Indefinido/indeterminado na maioria dos contextos matemáticos devido a contradições formais.
+
+0⁰ = indefinido
+
+Expoentes Fracionários
+Um expoente fracionário representa uma radiciação: o denominador é o índice da raiz e o numerador é 
+o expoente da base.
+
+aᵐ/ⁿ = ⁿ√(aᵐ),  a ≥ 0
