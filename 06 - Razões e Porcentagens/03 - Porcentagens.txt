@@ -1,0 +1,123 @@
+Porcentagem
+Forma de expressar um número como uma fração de denominador 100 (do latim per centum, "por cem"). 
+Representa um valor relativo ou proporção utilizando o símbolo de porcentagem (%).
+
+x% = x / 100
+
+Terminologia
+- Símbolo de Porcentagem (%): indica partes por cem.
+- Base: a quantidade total ou inicial sobre a qual a porcentagem é calculada (representa 100% ou 1,0 
+  em forma decimal).
+- Taxa: o número da porcentagem em si.
+- Valor Percentual: a parte ou fração resultante da aplicação da taxa sobre a base.
+
+Representações
+- Forma Percentual: expressa com o sinal % (ex.: 25%).
+- Forma Fracionária: expressa como uma fração sobre 100, simplificada quando possível (ex: 25/100 = 
+  1/4).
+- Forma Decimal: obtida dividindo a taxa por 100, equivalente a deslocar a vírgula duas casas para a 
+  esquerda (ex: 0,25).
+
+----------------------------------------------------------------------------------------------------
+
+Cálculos de Porcentagem
+Envolvem encontrar uma quantidade desconhecida a partir de um total (base), de uma taxa percentual e 
+de um valor parcial. Podem ser resolvidos por proporção ou por fórmula direta.
+
+p = b ∙ (t% / 100)
+
+Componentes
+- Parte (p): a quantidade correspondente à taxa aplicada.
+- Base (b): a quantidade inteira que representa 100%.
+- Taxa (t%): a proporção expressa em partes por cem (%).
+
+O Truque Comutativo
+Como o cálculo depende da multiplicação, a ordem dos fatores não altera o resultado. Calcular a% de 
+b é idêntico a calcular b% de a, facilitando cálculos mentais:
+
+a% de b = b% de a
+
+Propriedades
+- Equivalência proporcional: problemas de porcentagem podem ser resolvidos por proporção (Parte / 
+  Base = Rate / 100).
+- Escalabilidade linear: dobrar ou reduzir a base ou a taxa escala a parte na mesma proporção.
+- Propriedade aditiva: a porcentagem de uma soma é a soma das porcentagens individuais.
+
+Exemplos
+Calcular Parte: Encontrar 20% de 150 (via proporção ou fórmula):
+
+p = b ∙ (t% / 100)
+x = 150 ∙ (20 / 100)
+x = 30
+
+Calcular Taxa: Descobrir qual a porcentagem que 30 representa de 150:
+
+p = b ∙ (t% / 100)
+30 = 150 ∙ (x/100)
+30 ∙ 100 = 150x
+3000 = 150x
+x = 3000 / 150
+x = 20%
+
+Calcular Base: Encontrar a base total quando 20% equivale a 30:
+
+p = b ∙ (t% / 100)
+30 = x ∙ (20 / 100)
+30 ∙ 100 = 20x
+3000 = 20x
+x = 3000 / 20
+x = 150
+
+Truque Comutativo: Descobrir 16% de 50:
+
+16% ∙ 50 = 50% ∙ 16 = 16 / 2 = 8
+
+----------------------------------------------------------------------------------------------------
+
+Aumento e Redução Percentual
+Medem a variação relativa entre um valor inicial (base) e um valor final, aplicando uma taxa 
+percentual sobre a quantidade original.
+
+Vf = Vi ∙ (1 ± t% / 100)
+
+Terminologia
+- Valor Final (Vf): o valor resultante após o aumento ou redução.
+- Valor Inicial (Vi): a quantidade original de referência (100%).
+- Taxa Percentual (t%): a taxa relativa de variação escalada para 100%.
+- Variação Absoluta: a diferença direta entre o valor final e o inicial (|Vf - Vi|).
+
+Fórmulas
+Aumento Percentual: adiciona um crescimento percentual ao valor inicial.
+
+Vf = Vi ∙ (1 + t% / 100)
+
+Redução Percentual: subtrai uma redução percentual do valor inicial.
+
+Vf = Vi ∙ (1 - t% / 100)
+
+Taxa de Variação Percentual: calcula a taxa relativa entre dois valores conhecidos.
+
+t% = ((Vf - Vi) / Vi) ∙ 100
+
+Exemplos 
+Preço final de um casaco de 200$ após aumento de 15%:
+
+Vf = Vi ∙ (1 + t% / 100)
+Vf = 200 ∙ (1 + 15 / 100)
+Vf = 200 ∙ 1,15
+Vf = 230$
+
+Preço final de um casaco de 200$ após desconto de 15%:
+
+Vf = Vi ∙ (1 - t% / 100)
+Vf = 200 ∙ (1 - 15 / 100)
+Vf = 200 ∙ 0,85
+Vf = 170,$
+
+Taxa de aumento em uma assinatura que subiu de 150$ para 180$:
+
+t% = ((Vf - Vi) / Vi) ∙ 100
+t% = ((180 - 150) / 150) ∙ 100
+t% = (30 / 150) ∙ 100
+t% = 0,2 ∙ 100
+t% = 20%
